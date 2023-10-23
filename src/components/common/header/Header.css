@@ -1,0 +1,10 @@
+header{
+    background-color: var(--headColor) !important;
+    height: 10vh;
+    line-height: 10vh;
+}
+
+
+.logo img{
+    width: 90px;
+}

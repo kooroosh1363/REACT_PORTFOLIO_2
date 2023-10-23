@@ -1,4 +1,4 @@
-import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material"
+// import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material"
 
 export const navlink = [
   {
@@ -46,70 +46,70 @@ export const about = [
     cover: "./images/man.png",
   },
 ]
-export const services = [
-  {
-    id: 1,
-    icon: <Settings />,
-    title: "Creative Design",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-  },
-  {
-    id: 2,
-    icon: <CropRotate />,
-    title: "Clean Code",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-  },
-  {
-    id: 3,
-    icon: <ViewInAr />,
-    title: "Responsive Design",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-  },
-  {
-    id: 4,
-    icon: <PieChart />,
-    title: "Material UI	",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-  },
-  {
-    id: 5,
-    icon: <Code />,
-    title: "Material UI Icons",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-  },
-  {
-    id: 6,
-    icon: <BarChart />,
-    title: "Awesome Support",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-  },
-]
-export const project = [
-  {
-    id: 1,
-    icon: <CloudOutlined />,
-    num: "89",
-    title: "HAPPY CLIENTS",
-  },
-  {
-    id: 2,
-    icon: <FavoriteBorder />,
-    num: "231",
-    title: "PROJECTS COMPLEATED",
-  },
-  {
-    id: 3,
-    icon: <Public />,
-    num: "108",
-    title: "FILES DOWNLOADED",
-  },
-  {
-    id: 4,
-    icon: <PersonOutlined />,
-    num: "1446",
-    title: "LIENS OF CODE",
-  },
-]
+// export const services = [
+//   {
+//     id: 1,
+//     icon: <Settings />,
+//     title: "Creative Design",
+//     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+//   },
+//   {
+//     id: 2,
+//     icon: <CropRotate />,
+//     title: "Clean Code",
+//     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+//   },
+//   {
+//     id: 3,
+//     icon: <ViewInAr />,
+//     title: "Responsive Design",
+//     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+//   },
+//   {
+//     id: 4,
+//     icon: <PieChart />,
+//     title: "Material UI	",
+//     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+//   },
+//   {
+//     id: 5,
+//     icon: <Code />,
+//     title: "Material UI Icons",
+//     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+//   },
+//   {
+//     id: 6,
+//     icon: <BarChart />,
+//     title: "Awesome Support",
+//     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+//   },
+// ]
+// export const project = [
+//   {
+//     id: 1,
+//     icon: <CloudOutlined />,
+//     num: "89",
+//     title: "HAPPY CLIENTS",
+//   },
+//   {
+//     id: 2,
+//     icon: <FavoriteBorder />,
+//     num: "231",
+//     title: "PROJECTS COMPLEATED",
+//   },
+//   {
+//     id: 3,
+//     icon: <Public />,
+//     num: "108",
+//     title: "FILES DOWNLOADED",
+//   },
+//   {
+//     id: 4,
+//     icon: <PersonOutlined />,
+//     num: "1446",
+//     title: "LIENS OF CODE",
+//   },
+// ]
 export const portfolio = [
   {
     id: 1,
@@ -203,34 +203,34 @@ export const blog = [
     cover: "./images/blog/b3.png",
   },
 ]
-export const contact = [
-  {
-    icon: <AddLocationAltOutlined />,
-    text1: "2651 Main Street, Suit 124",
-    text2: "Seattle, WA, 98101",
-  },
-  {
-    icon: <PhoneIphone />,
-    text1: "0123456789",
-    text2: "0345627891",
-  },
-  {
-    icon: <EmailOutlined />,
-    text1: "hello@thetheme.io",
-    text2: "inf0@brex-theme.io",
-  },
-]
-export const social = [
-  {
-    icon: <Facebook />,
-  },
-  {
-    icon: <Twitter />,
-  },
-  {
-    icon: <Instagram />,
-  },
-  {
-    icon: <YouTube />,
-  },
-]
+// export const contact = [
+//   {
+//     icon: <AddLocationAltOutlined />,
+//     text1: "2651 Main Street, Suit 124",
+//     text2: "Seattle, WA, 98101",
+//   },
+//   {
+//     icon: <PhoneIphone />,
+//     text1: "0123456789",
+//     text2: "0345627891",
+//   },
+//   {
+//     icon: <EmailOutlined />,
+//     text1: "hello@thetheme.io",
+//     text2: "inf0@brex-theme.io",
+//   },
+// ]
+// export const social = [
+//   {
+//     icon: <Facebook />,
+//   },
+//   {
+//     icon: <Twitter />,
+//   },
+//   {
+//     icon: <Instagram />,
+//   },
+//   {
+//     icon: <YouTube />,
+//   },
+// ]

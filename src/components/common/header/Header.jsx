@@ -1,7 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-
-
+import { navlink } from '../../../data/data'
+import logo from "../../../data/image/raad.png"
+import  "./Header.css"
 const Header = () => {
   return (
     <>
@@ -12,7 +13,9 @@ const Header = () => {
           </div>
 
           <div className="nav">
-            {navli}
+            {navlink.map((links,i)=>(
+              <Link to={links.url} key={i}>{links.text}</Link>
+            ))}
           </div>
         </div>
       </header>
