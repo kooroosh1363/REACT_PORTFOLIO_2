@@ -30,4 +30,34 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+a{
+  color: var(--darkGrey);
+  transition: 0.5s;
+}
+
+a:hover{
+  color: var(--initialColor);
+}
+
+p{
+  font-size: 15px;
+  line-height: 30px;
+  margin: 20px 0;
+  color: var(--silver);
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 400;
+}
+
+.container{
+  max-width: 80%;
+  max-height: auto;
+}
+
+.sbFlex{
+  display: flex;
+  justify-content: space-between;
+}
+
 

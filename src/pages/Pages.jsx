@@ -7,6 +7,7 @@ import Header from '../components/common/header/Header';
 const Pages = () => {
     return (
         <>
+        <Header/>
             {/* <Routes>
                 <Route path='' element={}/>
             </Routes> */}
