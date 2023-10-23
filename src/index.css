@@ -76,3 +76,9 @@ button{
 }
 
 
+.btnInit{
+  background: none !important;
+  border: 2px solid var(--initialColor) !important;
+}
+
+
