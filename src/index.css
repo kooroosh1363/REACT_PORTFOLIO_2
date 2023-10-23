@@ -76,3 +76,21 @@ button{
 }
 
 
+.btnInit{
+  background: none !important;
+  border: 2px solid var(--initialColor) !important;
+}
+
+
+section{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+
+.flex{
+  display: flex;
+}
+
+
