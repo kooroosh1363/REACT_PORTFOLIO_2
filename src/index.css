@@ -82,3 +82,15 @@ button{
 }
 
 
+section{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+
+.flex{
+  display: flex;
+}
+
+
