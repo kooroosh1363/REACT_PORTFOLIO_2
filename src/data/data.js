@@ -1,4 +1,12 @@
 // import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material"
+import { CiSettings } from "react-icons/ci";
+import { MdCropRotate } from "react-icons/md";
+import { MdViewInAr } from "react-icons/md";
+import { AiFillPieChart } from "react-icons/ai";
+import { AiOutlineCode } from "react-icons/ai";
+import { AiOutlineBarChart } from "react-icons/ai";
+
+
 
 export const navlink = [
   {
@@ -46,44 +54,46 @@ export const about = [
     cover: "https://img.freepik.com/free-vector/handsome-man_1308-85984.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais",
   },
 ]
-// export const services = [
-//   {
-//     id: 1,
-//     icon: <Settings />,
-//     title: "Creative Design",
-//     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-//   },
-//   {
-//     id: 2,
-//     icon: <CropRotate />,
-//     title: "Clean Code",
-//     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-//   },
-//   {
-//     id: 3,
-//     icon: <ViewInAr />,
-//     title: "Responsive Design",
-//     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-//   },
-//   {
-//     id: 4,
-//     icon: <PieChart />,
-//     title: "Material UI	",
-//     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-//   },
-//   {
-//     id: 5,
-//     icon: <Code />,
-//     title: "Material UI Icons",
-//     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-//   },
-//   {
-//     id: 6,
-//     icon: <BarChart />,
-//     title: "Awesome Support",
-//     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-//   },
-// ]
+
+
+export const services = [
+  {
+    id: 1,
+    icon: <CiSettings />,
+    title: "Creative Design",
+    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+  },
+  {
+    id: 2,
+    icon: <MdCropRotate />,
+    title: "Clean Code",
+    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+  },
+  {
+    id: 3,
+    icon: <MdViewInAr />,
+    title: "Responsive Design",
+    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+  },
+  {
+    id: 4,
+    icon: <AiFillPieChart />,
+    title: "Material UI	",
+    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+  },
+  {
+    id: 5,
+    icon: <AiOutlineCode />,
+    title: "Material UI Icons",
+    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+  },
+  {
+    id: 6,
+    icon: <AiOutlineBarChart />,
+    title: "Awesome Support",
+    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+  },
+]
 // export const project = [
 //   {
 //     id: 1,
