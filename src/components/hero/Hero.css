@@ -14,3 +14,17 @@
     height: 90vh !important;
     z-index: -1;
 }
+
+
+.containerHero{
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--initialColor);
+}
+
