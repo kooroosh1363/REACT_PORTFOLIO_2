@@ -98,3 +98,15 @@ section{
   grid-template-columns: repeat(3, 1fr);
   grid-gap:30px;
 }
+
+.grid4{
+  /* display: grid !important; */
+  grid-template-columns: repeat(4, 1fr) !important;
+  height: 50vh !important;
+  place-items: center !important;
+  text-align: center !important;
+}
+
+.box{
+  text-align: center;
+}
