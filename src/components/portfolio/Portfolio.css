@@ -1,0 +1,51 @@
+article {
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+}
+
+article img {
+    width: 100%;
+    height: 100%;
+}
+
+article .box {
+    position: relative;
+    transition: 0.5s;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 2;
+    opacity: 0;
+}
+
+
+.overlay::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--initialColor);
+    opacity: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+
+article .box:hover .overlay,
+article .box:hover .overlay::after {
+    opacity: 1;
+}
