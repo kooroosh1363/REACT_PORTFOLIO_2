@@ -49,3 +49,16 @@ article .box:hover .overlay,
 article .box:hover .overlay::after {
     opacity: 1;
 }
+
+
+.btnCta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.btnCta button{
+    text-transform: capitalize;
+    margin-right: 20px;
+}

@@ -2,17 +2,35 @@ import React, { useState } from 'react'
 import "./Portfolio.css"
 import { portfolio } from '../../data/data'
 import { MdVisibility } from "react-icons/md";
+import Heading from '../common/heading/Heading';
+
+const allCategory = ["all", ...new Set(portfolio.map((item) => item.category))]
 
 const Portfolio = () => {
 
     const [list, setList] = useState(portfolio)
+    const [category, setCategory] = useState(allCategory)
+
+    const itemFilter = (category) => {
+        const itemNew = portfolio.filter((item) => item.category === category)
+        setList(itemNew)
+
+        if (category === "all") {
+            setList(portfolio)
+        }
+    }
 
     return (
         <>
             <article>
                 <div className="container">
+                    <Heading title="Portfolio"/>
+                    
                     <div className="btnCta">
-                        text
+                        {category.map((category) => (
+                            <button className='btnInit' onClick={() => itemFilter
+                                (category)}>{category}</button>
+                        ))}
                     </div>
 
 
