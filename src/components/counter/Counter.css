@@ -5,7 +5,7 @@
 
 .hero.counter::after{
 background-image: url(../../data/image/black3.jpg);
-height: 50vh;
+height: 45vh !important;
 }
 
 .counter h1{
