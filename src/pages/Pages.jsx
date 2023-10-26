@@ -5,6 +5,7 @@ import Header from '../components/common/header/Header';
 import Home from "../components/home/Home"
 import About from "../components/about/About"
 import Services from "../components/service/Services"
+import Counter from '../components/counter/Counter';
 
 const Pages = () => {
     return (
@@ -14,6 +15,7 @@ const Pages = () => {
                 <Route path='/' element={<Home />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/services' element={<Services />} />
+                <Route path='/counter' element={<Counter />} />
             </Routes>
         </>
     )
