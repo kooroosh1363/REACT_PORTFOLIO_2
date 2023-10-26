@@ -129,7 +129,7 @@ export const portfolio = [
   {
     id: 1,
     cover:
-      "https://img.freepik.com/free-vector/handsome-man_1308-85984.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais",
+      "https://image.commarts.com/images1/4/1/9/0/1/1091416_102_1160_LTMyOTUyODQ5NDE5OTgxNTY4MDk.jpg",
     name: "Brand",
     category: "marketing",
     title: "Brex Logo",
@@ -137,7 +137,7 @@ export const portfolio = [
   {
     id: 2,
     cover:
-      "https://img.freepik.com/free-vector/handsome-man_1308-85984.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais",
+      "https://image2.commarts.com/images1/4/1/9/0/1/1091419_102_1160_MTA3NTU1NDc3ODIzMjg4MzQwOA.jpg",
     name: "Brand",
     category: "design",
     title: "Brex Logo",
@@ -145,7 +145,7 @@ export const portfolio = [
   {
     id: 3,
     cover:
-      "https://img.freepik.com/free-vector/handsome-man_1308-85984.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais",
+      "https://image.commarts.com/images1/4/1/9/0/1/1091420_102_1160_NzIwNjE1OTEyLTEwOTQzNzg0NDQ.jpg",
     name: "Brand",
     category: "development",
     title: "Brex Logo",
@@ -153,7 +153,7 @@ export const portfolio = [
   {
     id: 4,
     cover:
-      "https://img.freepik.com/free-vector/handsome-man_1308-85984.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais",
+      "https://image0.commarts.com/images1/4/1/9/0/1/1091421_102_1160_NzIwNjE2MjM4LTU1NzU1NTkzOQ.jpg",
     name: "Brand",
     category: "marketing",
     title: "Brex Logo",
@@ -161,7 +161,7 @@ export const portfolio = [
   {
     id: 5,
     cover:
-      "https://img.freepik.com/free-vector/handsome-man_1308-85984.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais",
+      "https://image1.commarts.com/images1/4/1/9/0/1/1091422_102_1160_MTgwMjM0NTIyMy04NDYxOTA3MzU.jpg",
     name: "Brand",
     category: "design",
     title: "Brex Logo",
@@ -169,12 +169,15 @@ export const portfolio = [
   {
     id: 6,
     cover:
-      "https://img.freepik.com/free-vector/handsome-man_1308-85984.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais",
+      "https://image2.commarts.com/images1/4/1/9/0/1/1091423_102_1160_LTM0MjAzMDI1LTE3NjIwMTc0MTM.jpg",
     name: "Brand",
     category: "development",
     title: "Brex Logo",
   },
 ];
+
+
+
 export const testimonials = [
   {
     id: 1,
