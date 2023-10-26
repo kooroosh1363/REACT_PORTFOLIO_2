@@ -5,6 +5,10 @@ import { MdViewInAr } from "react-icons/md";
 import { AiFillPieChart } from "react-icons/ai";
 import { AiOutlineCode } from "react-icons/ai";
 import { AiOutlineBarChart } from "react-icons/ai";
+import { BsFillCloudDownloadFill } from "react-icons/bs";
+import { MdFavoriteBorder } from "react-icons/md";
+import { MdPublic } from "react-icons/md";
+import { BsFilePersonFill } from "react-icons/bs";
 
 
 
@@ -94,32 +98,34 @@ export const services = [
     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
   },
 ]
-// export const project = [
-//   {
-//     id: 1,
-//     icon: <CloudOutlined />,
-//     num: "89",
-//     title: "HAPPY CLIENTS",
-//   },
-//   {
-//     id: 2,
-//     icon: <FavoriteBorder />,
-//     num: "231",
-//     title: "PROJECTS COMPLEATED",
-//   },
-//   {
-//     id: 3,
-//     icon: <Public />,
-//     num: "108",
-//     title: "FILES DOWNLOADED",
-//   },
-//   {
-//     id: 4,
-//     icon: <PersonOutlined />,
-//     num: "1446",
-//     title: "LIENS OF CODE",
-//   },
-// ]
+
+
+export const project = [
+  {
+    id: 1,
+    icon: <BsFillCloudDownloadFill />,
+    num: "89",
+    title: "HAPPY CLIENTS",
+  },
+  {
+    id: 2,
+    icon: <MdFavoriteBorder />,
+    num: "231",
+    title: "PROJECTS COMPLEATED",
+  },
+  {
+    id: 3,
+    icon: <MdPublic />,
+    num: "108",
+    title: "FILES DOWNLOADED",
+  },
+  {
+    id: 4,
+    icon: <BsFilePersonFill />,
+    num: "1446",
+    title: "LIENS OF CODE",
+  },
+]
 export const portfolio = [
   {
     id: 1,

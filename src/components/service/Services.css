@@ -1,0 +1,13 @@
+.services .box{
+    background-color: var(--initialBack);
+    padding: 35px;
+}
+
+.services i{
+    color: var(--initialColor);
+}
+
+.services h3{
+    margin-top: 20px;
+}
+
