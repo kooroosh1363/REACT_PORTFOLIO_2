@@ -181,27 +181,27 @@ export const testimonials = [
     id: 1,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
     image:
-    "https://img.freepik.com/free-vector/handsome-man_1308-85984.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais",
+      "https://img.freepik.com/free-vector/handsome-man_1308-85984.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais",
     name: "Alamin Musa",
     post: "Front End Developer",
   },
   {
     id: 2,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "https://img.freepik.com/free-vector/handsome-man_1308-85984.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais",
+    image:
+      "https://img.freepik.com/free-vector/handsome-man_1308-85984.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais",
     name: "Alex Ander",
     post: "Back End Developer",
   },
   {
     id: 3,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "https://img.freepik.com/free-vector/handsome-man_1308-85984.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais",
+    image:
+      "https://img.freepik.com/free-vector/handsome-man_1308-85984.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais",
     name: "GorkCoder",
     post: "React Developer",
   },
 ];
-
-
 
 export const blog = [
   {
@@ -210,7 +210,8 @@ export const blog = [
     date: "Jun 27, 2022",
     author: "Dorian Gray",
     desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
-    cover: "./images/blog/b1.png",
+    cover:
+      "https://img.freepik.com/free-vector/handsome-man_1308-85984.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais",
   },
   {
     id: 2,
@@ -218,7 +219,8 @@ export const blog = [
     date: "Jun 27, 2022",
     author: "Dorian Gray",
     desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
-    cover: "./images/blog/b2.png",
+    cover:
+      "https://img.freepik.com/free-vector/handsome-man_1308-85984.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais",
   },
   {
     id: 3,
@@ -226,9 +228,11 @@ export const blog = [
     date: "Jun 27, 2022",
     author: "Dorian Gray",
     desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
-    cover: "./images/blog/b3.png",
+    cover:
+      "https://img.freepik.com/free-vector/handsome-man_1308-85984.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais",
   },
 ];
+
 // export const contact = [
 //   {
 //     icon: <AddLocationAltOutlined />,

@@ -5,6 +5,7 @@ import Services from "../service/Services"
 import Counter from "../counter/Counter"
 import Portfolio from '../portfolio/Portfolio'
 import Testimonials from '../testimonial/Testimonials'
+import Blog from '../blog/Blog'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Counter/>
       <Portfolio/>
       <Testimonials/>
+      <Blog/>
     </>
   )
 }
