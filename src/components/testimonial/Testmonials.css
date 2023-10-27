@@ -1,0 +1,54 @@
+.testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.testimonials::after{
+    background-image: url(../../data/image/black2.jpg);
+}
+
+.testimonials .box{
+    max-width: 60%;
+    margin: auto;
+}
+
+.testimonials i{
+    background-color: var(--white);
+    font-size: 20px;
+    padding: 15px;
+    margin: 30px 0;
+    display: inline-block;
+    color: var(--initialColor);
+}
+
+
+.testimonials .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    border-radius: 50%;
+    border: 3px solid var(--initialColor);
+}
+
+.testimonials img{
+    
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 50%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+label{
+    color: var(--initialColor);
+    margin: 10px 0;
+    display: inline-block;
+}
