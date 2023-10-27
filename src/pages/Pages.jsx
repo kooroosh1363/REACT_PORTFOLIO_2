@@ -7,6 +7,7 @@ import About from "../components/about/About"
 import Services from "../components/service/Services"
 import Portfolio from '../components/portfolio/Portfolio';
 import Testimonials from '../components/testimonial/Testimonials';
+import Blog from '../components/blog/Blog';
 
 
 const Pages = () => {
@@ -19,6 +20,7 @@ const Pages = () => {
                 <Route path='/services' element={<Services />} />
                 <Route path='/portfolio' element={<Portfolio />} />
                 <Route path='/testimonials' element={<Testimonials />} />
+                <Route path='/blog' element={<Blog />} />
                 
             </Routes>
         </>

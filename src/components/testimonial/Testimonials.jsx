@@ -17,7 +17,7 @@ const Testimonials = () => {
     
     return (
         <>
-            <div className="testimonials hero">
+            <section className="testimonials hero">
                 <div className="container">
                     <Slider {...settings}>
                         {testimonials.map((val) => (
@@ -39,7 +39,7 @@ const Testimonials = () => {
                     </Slider>
 
                 </div>
-            </div>
+            </section>
         </>
     )
 }
