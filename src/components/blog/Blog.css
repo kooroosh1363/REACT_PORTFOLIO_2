@@ -1,0 +1,15 @@
+.blog img{
+    width: 100%;
+    border-radius: 10px 10px 0 0 !important;
+
+}
+
+
+.blog .box{
+    background-color: var(--initialBack);
+    border-radius: 10px !important;
+}
+
+.blog .text{
+    padding: 10px 30px;
+}
