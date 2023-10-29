@@ -8,6 +8,7 @@ import Services from "../components/service/Services"
 import Portfolio from '../components/portfolio/Portfolio';
 import Testimonials from '../components/testimonial/Testimonials';
 import Blog from '../components/blog/Blog';
+import Contact from '../components/contact/Contact';
 
 
 const Pages = () => {
@@ -21,6 +22,7 @@ const Pages = () => {
                 <Route path='/portfolio' element={<Portfolio />} />
                 <Route path='/testimonials' element={<Testimonials />} />
                 <Route path='/blog' element={<Blog />} />
+                <Route path='/contact' element={<Contact />} />
                 
             </Routes>
         </>

@@ -257,6 +257,8 @@ export const contact = [
     text2: "inf0@brex-theme.io",
   },
 ]
+
+
 export const social = [
   {
     icon: <BsFacebook />,
