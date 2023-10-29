@@ -6,6 +6,7 @@ import Counter from "../counter/Counter"
 import Portfolio from '../portfolio/Portfolio'
 import Testimonials from '../testimonial/Testimonials'
 import Blog from '../blog/Blog'
+import Footer from '../common/footer/Footer'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Portfolio/>
       <Testimonials/>
       <Blog/>
+      <Footer/>
     </>
   )
 }
