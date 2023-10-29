@@ -10,6 +10,7 @@ const Portfolio = () => {
 
     const [list, setList] = useState(portfolio)
     const [category, setCategory] = useState(allCategory)
+    console.log(setCategory);
 
     const itemFilter = (category) => {
         const itemNew = portfolio.filter((item) => item.category === category)
