@@ -8,6 +8,13 @@ import { AiOutlineBarChart } from "react-icons/ai";
 import { BsFillCloudDownloadFill } from "react-icons/bs";
 import { MdFavoriteBorder } from "react-icons/md";
 import { MdPublic } from "react-icons/md";
+import { FaLocationDot } from "react-icons/fa6";
+import { MdPhoneIphone } from "react-icons/md";
+import { AiOutlineMail } from "react-icons/ai";
+import { BsFacebook } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
+import { AiFillInstagram } from "react-icons/ai";
+import { BsYoutube } from "react-icons/bs";
 import { BsFilePersonFill } from "react-icons/bs";
 
 export const navlink = [
@@ -233,34 +240,34 @@ export const blog = [
   },
 ];
 
-// export const contact = [
-//   {
-//     icon: <AddLocationAltOutlined />,
-//     text1: "2651 Main Street, Suit 124",
-//     text2: "Seattle, WA, 98101",
-//   },
-//   {
-//     icon: <PhoneIphone />,
-//     text1: "0123456789",
-//     text2: "0345627891",
-//   },
-//   {
-//     icon: <EmailOutlined />,
-//     text1: "hello@thetheme.io",
-//     text2: "inf0@brex-theme.io",
-//   },
-// ]
-// export const social = [
-//   {
-//     icon: <Facebook />,
-//   },
-//   {
-//     icon: <Twitter />,
-//   },
-//   {
-//     icon: <Instagram />,
-//   },
-//   {
-//     icon: <YouTube />,
-//   },
-// ]
+export const contact = [
+  {
+    icon: <FaLocationDot />,
+    text1: "2651 Main Street, Suit 124",
+    text2: "Seattle, WA, 98101",
+  },
+  {
+    icon: <MdPhoneIphone />,
+    text1: "0123456789",
+    text2: "0345627891",
+  },
+  {
+    icon: <AiOutlineMail />,
+    text1: "hello@thetheme.io",
+    text2: "inf0@brex-theme.io",
+  },
+]
+export const social = [
+  {
+    icon: <BsFacebook />,
+  },
+  {
+    icon: <FaXTwitter />,
+  },
+  {
+    icon: <AiFillInstagram />,
+  },
+  {
+    icon: <BsYoutube />,
+  },
+]
