@@ -9,6 +9,7 @@ import Portfolio from '../components/portfolio/Portfolio';
 import Testimonials from '../components/testimonial/Testimonials';
 import Blog from '../components/blog/Blog';
 import Contact from '../components/contact/Contact';
+import Footer from '../components/common/footer/Footer';
 
 
 const Pages = () => {
@@ -25,6 +26,7 @@ const Pages = () => {
                 <Route path='/contact' element={<Contact />} />
                 
             </Routes>
+            <Footer/>
         </>
     )
 }

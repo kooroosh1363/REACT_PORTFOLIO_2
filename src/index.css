@@ -110,3 +110,41 @@ section{
 /* .box{
   text-align: center;
 } */
+
+
+/* media query-s */
+@media screen and (max-width:768px){
+  .hero{
+    height: 60vh;
+    margin-bottom: 130px;
+  }
+
+  .containerHero{
+    max-width: 80%;
+  }
+
+  .hero::after{
+    height: 60vh;
+  }
+
+  section{
+    height: auto;
+    padding-top: 150px;
+  }
+
+  .contact .sbFlex,
+  .about .flex{
+    flex-direction: column;
+  }
+
+  .left,
+  .right{
+    width: 100%;
+  }
+
+  .grid3,
+  .grid4{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* media query-e */
