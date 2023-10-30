@@ -7,11 +7,11 @@ const Footer = () => {
             <footer>
                 {social.map((item) => (
                     <>
-                        <i>{item.icon}</i>
+                        <i data-aos="zoom-in">{item.icon}</i>
                     </>
                 ))}
 
-                <p>All Right  2023</p>
+                <p data-aos="zoom-in-right">All Right  2023</p>
             </footer>
         </>
     )

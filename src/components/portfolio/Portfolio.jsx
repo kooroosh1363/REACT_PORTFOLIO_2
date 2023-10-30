@@ -25,19 +25,21 @@ const Portfolio = () => {
         <>
             <article>
                 <div className="container">
-                    <Heading title="Portfolio"/>
-                    
+                    <Heading title="Portfolio" />
+
                     <div className="btnCta">
                         {category.map((category) => (
                             <button className='btnInit' onClick={() => itemFilter
-                                (category)}>{category}</button>
+                                (category)} data-aos="fade-down">
+                                {category}
+                            </button>
                         ))}
                     </div>
 
 
                     <div className="content grid3">
                         {list.map((items) => (
-                            <div className="box">
+                            <div className="box" data-aos="fade-up">
                                 <div className="img">
                                     <img src={items.cover} alt="" />
                                 </div>
