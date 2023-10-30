@@ -12,7 +12,7 @@ const Services = () => {
           <div className="content grid3">
 
             {services.map((item, i) => (
-              <div className="box">
+              <div className="box" data-aos="flip-right">
                 <i>{item.icon}</i>
                 <h3>{item.title}</h3>
                 <p>{item.desc}</p>

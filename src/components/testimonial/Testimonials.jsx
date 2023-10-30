@@ -21,18 +21,18 @@ const Testimonials = () => {
                 <div className="container">
                     <Slider {...settings}>
                         {testimonials.map((val) => (
-                            <div className="box">
-                                <i>
+                            <div className="box" >
+                                <i data-aos="zoom-in-down">
                                     <BiSolidQuoteAltRight />
                                 </i>
-                                <p>{val.text}</p>
+                                <p data-aos="zoom-out-up">{val.text}</p>
 
                                 <div className="img">
-                                    <img src={val.image} alt="" />
+                                    <img src={val.image} alt="" data-aos="zoom-in-up" />
                                 </div>
 
-                                <h3>{val.name}</h3>
-                                <label>{val.post}</label>
+                                <h3 data-aos="fade-out-up">{val.name}</h3>
+                                <label data-aos="zoom-out-up">{val.post}</label>
 
                             </div>
                         ))}

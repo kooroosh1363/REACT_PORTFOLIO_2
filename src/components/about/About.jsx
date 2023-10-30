@@ -13,10 +13,10 @@ const About = () => {
                     {about.map((val, i) => (
                         <>
                         <div className="left">
-                            <img src={val.cover} alt="" />
+                            <img src={val.cover} alt="" data-aos="fade-right"/>
                         </div>
 
-                        <div className="right">
+                        <div className="right" data-aos="fade-left">
                             <Heading title='About Me'/>
 
                             <p>{val.desc}</p>

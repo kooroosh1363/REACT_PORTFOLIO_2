@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { navlink } from '../../../data/data'
 import logo from "../../../data/image/raad.png"
-import  "./Header.css"
+import "./Header.css"
 import { GiHamburgerMenu } from "react-icons/gi";
 
 
@@ -17,16 +17,18 @@ const Header = () => {
       <header>
         <div className="container sbFlex">
           <div className="logo">
-            <img src={logo} alt="" />
+            <img src={logo} alt="" data-aos="fade-right" />
           </div>
 
           <div className={responsive ? "menuHide" : "nav"}>
-            {navlink.map((links,i)=>(
-              <Link to={links.url} key={i}>{links.text}</Link>
+            {navlink.map((links, i) => (
+              <Link to={links.url} key={i} data-aos="fade-right">
+                {links.text}
+              </Link>
             ))}
           </div>
 
-          <button className="toggle" onClick={() => setResponsive (!responsive)}>
+          <button className="toggle" onClick={() => setResponsive(!responsive)}>
             <GiHamburgerMenu className="icon"></GiHamburgerMenu>
           </button>
         </div>

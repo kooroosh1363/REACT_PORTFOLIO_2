@@ -9,7 +9,7 @@ const Hero = () => {
       <section className='hero'>
         {home.map((val,i)=>(
             <div className="containerHero">
-                <h3>{val.text}</h3>
+                <h3 data-aos="flip-right">{val.text}</h3>
 
                 <h1>
                     <Typewriter 
@@ -19,9 +19,9 @@ const Hero = () => {
                      }} />
                 </h1>
 
-                <p>{val.desc}</p>
+                <p data-aos="flip-left">{val.desc}</p>
 
-                <button className="btnInit">
+                <button className="btnInit" data-aos="flip-up-left">
                     Download Cv
                 </button>
             </div>
