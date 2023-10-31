@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Pages.css"
-import { Route, Routes, Router, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Header from '../components/common/header/Header';
 import Home from "../components/home/Home"
 import About from "../components/about/About"
