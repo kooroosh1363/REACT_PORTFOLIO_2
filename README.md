@@ -1,70 +1,207 @@
-# Getting Started with Create React App
+# PRISM — Route & Content Integrity Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PRISM modernizes a 2023 multi-route React portfolio into a route-aware engineering portfolio with explicit content boundaries.
 
-## Available Scripts
+The original project had real React routes, but much of its portfolio content was not credible:
 
-In the project directory, you can run:
+- fake identity content such as `ALAMIN MUSA`
+- Lorem Ipsum biography/services/blog/testimonials
+- third-party Brex artwork presented as portfolio items
+- fake counters such as happy clients, completed projects, downloads, and lines of code
+- fake testimonials
+- fake address, phone numbers, and email addresses
+- social icons without destinations
+- contact form without a backend
+- résumé download buttons without a résumé file
+- AOS animations on most content
+- typewriter animation
+- Slick carousel
+- icon-library-heavy data structures
+- a hover-only portfolio overlay
+- `console.log` left in production code
+- no unknown-route recovery
+- CRA boilerplate and a ~709 KB legacy lockfile
 
-### `npm start`
+## Engineering identity
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**PRISM — Route & Content Integrity Portfolio**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+PRISM focuses on:
 
-### `npm test`
+- canonical route registry
+- route metadata
+- static-host-safe hash routing
+- unknown-route recovery
+- keyboard route navigation
+- repository-backed project content
+- deterministic project filtering
+- safe repository-link policy
+- explicit claim boundaries
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Route architecture
 
-### `npm run build`
+```text
+src/data/content.js
+        │
+        ├─ routeRegistry
+        ├─ projects
+        ├─ architecture notes
+        └─ scope boundaries
+        │
+        ▼
+src/lib/routePolicy.js
+        ├─ canonical hash normalization
+        ├─ route lookup
+        ├─ route index
+        ├─ keyboard navigation
+        ├─ focus normalization
+        ├─ project filtering
+        └─ safe GitHub URL validation
+        │
+        ▼
+src/App.jsx
+        ├─ hashchange integration
+        ├─ document title/description
+        ├─ unknown-route recovery
+        ├─ keyboard-safe route navigation
+        └─ route-specific content
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Why hash routing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The original project used browser routes such as `/about` and `/portfolio`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+That requires server rewrite support when a user refreshes a deep route.
 
-### `npm run eject`
+PRISM uses:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- `#/overview`
+- `#/projects`
+- `#/architecture`
+- `#/boundaries`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This keeps deep navigation compatible with static hosting such as GitHub Pages without pretending a server router exists.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Content integrity
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The maintained portfolio now follows these rules:
 
-## Learn More
+1. Every project links to a real GitHub repository.
+2. No fake client logos or testimonials.
+3. No fake project/download/client counters.
+4. No contact form without a submission backend.
+5. No social icon without a real destination.
+6. No résumé button without an actual résumé artifact.
+7. No route outside the canonical registry.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Modernization summary
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Create React App → Vite
+- React 18 → React 19
+- removed React Router
+- removed AOS
+- removed React CountUp
+- removed React Icons
+- removed React Slick
+- removed Slick Carousel
+- removed Typewriter Effect
+- removed Web Vitals
+- removed fake identity/biography
+- removed fake services claims
+- removed fake counters
+- removed fake testimonials
+- removed fake contact data
+- removed fake contact form
+- removed fake social icons
+- removed third-party portfolio artwork
+- removed stock images
+- removed hover-only portfolio interaction
+- removed console logging
+- removed oversized Google Fonts import
+- removed CRA public/test boilerplate
+- removed legacy lockfile
+- added Vitest, CI, Pages deployment, and professional documentation
 
-### Code Splitting
+## Local development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Requirements:
 
-### Analyzing the Bundle Size
+- Node.js 22+
+- npm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm install --legacy-peer-deps --no-audit --no-fund
+npm run dev
+```
 
-### Making a Progressive Web App
+## Tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm test
+```
 
-### Advanced Configuration
+The suite covers:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- empty-route fallback
+- bare route normalization
+- hash normalization
+- unknown-route recovery
+- route lookup
+- route index
+- keyboard route wrapping
+- Home/End route navigation
+- empty route registry
+- focus normalization
+- unknown focus recovery
+- all-project behavior
+- deterministic project filtering
+- unique focus generation
+- GitHub HTTPS URL validation
+- JavaScript URL rejection
+- non-GitHub URL rejection
 
-### Deployment
+## Quality gate
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+npm run check
+```
 
-### `npm run build` fails to minify
+Runs syntax checks, Vitest, and a Vite production build.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## CI
+
+`.github/workflows/quality.yml` runs on pull requests and pushes to `main`.
+
+## Deployment
+
+PRISM includes a manual GitHub Pages workflow.
+
+1. Open **Settings → Pages**.
+2. Set **Source** to **GitHub Actions**.
+3. Open **Actions → Deploy Pages**.
+4. Run the workflow.
+
+## Security review
+
+No API keys, passwords, tokens, authentication flows, unsafe HTML rendering, or sensitive browser storage are required.
+
+External project destinations are static HTTPS links to `github.com`.
+
+## Scope
+
+PRISM is a static engineering portfolio and route/content-system demo.
+
+It does not claim:
+
+- CMS editing
+- authentication
+- contact submission
+- analytics
+- real client testimonials
+- customer counts
+- download counts
+- commercial metrics
+
+## License
+
+MIT. See [LICENSE](./LICENSE).
